@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "UPA",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "UPA DAICO", "CNES": "7260784", "TIPO": "UPA", "NATUREZA_J": "ADMINISTRAÇÃO PÚBLICA", "GESTAO": "M", "ATENDE_SUS": "SIM", "SITUACAO": "Casos graves" }, "geometry": { "type": "Point", "coordinates": [ -48.4562982, -1.3158923, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "UPA DAGUA I", "CNES": "9617868", "TIPO": "UPA", "NATUREZA_J": "ADMINISTRAÇÃO PÚBLICA", "GESTAO": "M", "ATENDE_SUS": "SIM", "SITUACAO": "Casos graves" }, "geometry": { "type": "Point", "coordinates": [ -48.4504158, -1.471269, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "UPA DASAC", "CNES": "9020284", "TIPO": "UPA", "NATUREZA_J": "ADMINISTRAÇÃO PÚBLICA", "GESTAO": "M", "ATENDE_SUS": "SIM", "SITUACAO": "Casos graves" }, "geometry": { "type": "Point", "coordinates": [ -48.466098, -1.415182, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "UPA JURUNAS", "CNES": "100587", "TIPO": "UPA", "NATUREZA_J": "ADMINISTRAÇÃO PÚBLICA", "GESTAO": "M", "ATENDE_SUS": "SIM", "SITUACAO": "Casos graves" }, "geometry": { "type": "Point", "coordinates": [ -48.4869539, -1.4762093, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "UPA MARAMBAIA", "CNES": "50571", "TIPO": "UPA", "NATUREZA_J": "ADMINISTRAÇÃO PÚBLICA", "GESTAO": "M", "ATENDE_SUS": "SIM", "SITUACAO": "Casos graves" }, "geometry": { "type": "Point", "coordinates": [ -48.440033, -1.3990792, 0.0 ] } }
+]
+}

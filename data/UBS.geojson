@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "UBS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "UNIDADE BASICA DE SAUDE CASTANHEIRA", "CNES": "101087", "TIPO": "UNIDADE BASICA DE SAUDE", "NATUREZA_J": "ADMINISTRAÇÃO PÚBLICA", "GESTAO": "M", "ATENDE_SUS": "SIM", "SITUACAO": "Atendimento básico" }, "geometry": { "type": "Point", "coordinates": [ -48.425745, -1.407516843265086, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "UNIDADE BASICA DE SAUDE DA PEDREIRA", "CNES": "2334267", "TIPO": "UNIDADE BASICA DE SAUDE", "NATUREZA_J": "ADMINISTRAÇÃO PÚBLICA", "GESTAO": "M", "ATENDE_SUS": "SIM", "SITUACAO": "Atendimento básico" }, "geometry": { "type": "Point", "coordinates": [ -48.4717978, -1.4280196, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "UNIDADE BASICA DE SAUDE DO JURUNAS", "CNES": "2694808", "TIPO": "UNIDADE BASICA DE SAUDE", "NATUREZA_J": "ADMINISTRAÇÃO PÚBLICA", "GESTAO": "M", "ATENDE_SUS": "SIM", "SITUACAO": "Atendimento básico" }, "geometry": { "type": "Point", "coordinates": [ -48.4922244, -1.4727454, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "UNIDADE BASICA DE SAUDE PORTAL DA AMAZONIA", "CNES": "101079", "TIPO": "UNIDADE BASICA DE SAUDE", "NATUREZA_J": "ADMINISTRAÇÃO PÚBLICA", "GESTAO": "M", "ATENDE_SUS": "SIM", "SITUACAO": "Atendimento básico" }, "geometry": { "type": "Point", "coordinates": [ -48.501877361961192, -1.471829976346983, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "UNIDADE BASICA DE SAUDE QUINTA DOS PARICAS", "CNES": "9818715", "TIPO": "UNIDADE BASICA DE SAUDE", "NATUREZA_J": "ADMINISTRAÇÃO PÚBLICA", "GESTAO": "M", "ATENDE_SUS": "SIM", "SITUACAO": "Atendimento básico" }, "geometry": { "type": "Point", "coordinates": [ -48.441221, -1.295995, 0.0 ] } }
+]
+}

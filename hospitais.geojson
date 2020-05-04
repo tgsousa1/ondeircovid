@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"name": "hospitais",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "HOSPITAL ABELARDO SANTOS", "CNES": "2695251", "TIPO": "HOSPITAL", "NATUREZA_J": "ADMINISTRAÇÃO PÚBLICA", "GESTAO": "E", "ATENDE_SUS": "SIM", "SITUACAO": "Internação" }, "geometry": { "type": "Point", "coordinates": [ -48.4689226, -1.3004139, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "HOSPITAL DE CAMPANHA COVID 19 BELEM", "CNES": "103284", "TIPO": "HOSPITAL", "NATUREZA_J": "ADMINISTRAÇÃO PÚBLICA", "GESTAO": "E", "ATENDE_SUS": "SIM", "SITUACAO": "EXCLUSIVO PARA INTERNAÇÕES" }, "geometry": { "type": "Point", "coordinates": [ -48.457319230259152, -1.42264846272866, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "HOSPITAL DE CLINICAS GASPAR VIANA", "CNES": "2333031", "TIPO": "HOSPITAL", "NATUREZA_J": "ADMINISTRAÇÃO PÚBLICA", "GESTAO": "E", "ATENDE_SUS": "SIM", "SITUACAO": "Internação" }, "geometry": { "type": "Point", "coordinates": [ -48.462198, -1.42222, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "HOSPITAL DE RETAGUARDA DOM VICENTE ZICO", "CNES": "90301", "TIPO": "HOSPITAL", "NATUREZA_J": "ADMINISTRAÇÃO PÚBLICA", "GESTAO": "M", "ATENDE_SUS": "SIM", "SITUACAO": "Internação" }, "geometry": { "type": "Point", "coordinates": [ -48.4543325, -1.434745, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "HOSPITAL JEAN BITAR", "CNES": "7967012", "TIPO": "HOSPITAL", "NATUREZA_J": "ADMINISTRAÇÃO PÚBLICA", "GESTAO": "E", "ATENDE_SUS": "SIM", "SITUACAO": "Internação" }, "geometry": { "type": "Point", "coordinates": [ -48.4872552, -1.4400685, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "HOSPITAL MUNICIPAL DE MOSQUEIRO", "CNES": "4005759", "TIPO": "HOSPITAL", "NATUREZA_J": "ADMINISTRAÇÃO PÚBLICA", "GESTAO": "M", "ATENDE_SUS": "SIM", "SITUACAO": "Não conhecida" }, "geometry": { "type": "Point", "coordinates": [ -48.471414599999981, -1.15530376432927, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "HOSPITAL PRONTO SOCORRO MUNICIPAL MARIO PINOTTI", "CNES": "2337339", "TIPO": "HOSPITAL", "NATUREZA_J": "ADMINISTRAÇÃO PÚBLICA", "GESTAO": "M", "ATENDE_SUS": "SIM", "SITUACAO": "Internação" }, "geometry": { "type": "Point", "coordinates": [ -48.4808635, -1.4396877, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "HOSPITAL PUBLICO ESTADUAL GALILEU", "CNES": "7486413", "TIPO": "HOSPITAL", "NATUREZA_J": "ADMINISTRAÇÃO PÚBLICA", "GESTAO": "E", "ATENDE_SUS": "SIM", "SITUACAO": "Internação" }, "geometry": { "type": "Point", "coordinates": [ -48.423692, -1.3673723, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "HOSPITAL UNIVERSITARIO JOAO DE BARROS BARRETO", "CNES": "2332981", "TIPO": "HOSPITAL", "NATUREZA_J": "ADMINISTRAÇÃO PÚBLICA", "GESTAO": "M", "ATENDE_SUS": "SIM", "SITUACAO": "Internação" }, "geometry": { "type": "Point", "coordinates": [ -48.4653872, -1.4579571, 0.0 ] } }
+]
+}
