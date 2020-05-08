@@ -9,11 +9,96 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.css" />
-    <script src="jquery-3.5.0.min.js"></script>
+   
     <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.js" charset="utf-8"></script>
+
+
+    <!-- meus -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/ae0fb67a3f.js" crossorigin="anonymous"></script>
+        <script src="scripts.js"></script>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="jquery-3.5.0.min.js"></script>
 </head>
 <body>
-<div id="map"></div>
-<script src="app.js"></script>
+
+
+    <div class="container-fluid">
+
+    <div class="container-fluid" style="margin-top: 20px;">
+        <div class="row mt-3">
+            <div class="col-lg-8">
+
+    <div style="margin-bottom: 20px;" id="map"></div>
+   
+            
+            </div>
+
+            <div class="col-lg-4" id="">
+                <h2 class="title">ONDE IR - COVID19 - BELÉM/PA </h2>
+               <div id="accordion" style="color: black;">
+                   <div class="card">
+                       <div class="card-header p-0">
+                           
+                        <button class="btn btn-link" data-target="#collapse1" data-toggle="collapse" style="text-decoration: none;"> <i class="fas fa-plus" style="margin-right: 4px ;"></i>Sobre</button>
+                       </div>
+                       <div class="collapse" id="collapse1" data-parent="#accordion">
+                           <div class="card-body">
+                               <p>Esse mapa foi desenvolvido por Tiago Gomes Sousa e tem o objetivo de dar uma ideia da acessibilidade (medida em tempo de viagem de carro) para os principais pontos de atendimento para casos suspeitos ou confirmados de  COVID19 na cidade de Belém.
+                                Mais informações sobre os dados na aba "Sobre os dados". </p>
+                           </div>
+                       </div>
+                   </div>
+
+                   <div class="card">
+                    <div class="card-header p-0">
+                     <button class="btn btn-link" data-target="#collapse2" data-toggle="collapse" style="text-decoration: none;"><i class="fas fa-plus" style="margin-right: 4px ;"></i>Orientações SESPA</button>
+                    </div>
+                    <div class="collapse" id="collapse2" data-parent="#accordion">
+                        <div class="card-body">
+                            <p>Em caso de sintomas leves (febre baixa, fadiga, acompanhados ou não de perda de olfato ou paladar) procurar as Unidades Básicas de Saúde (UBS) ou a Policlínica Metropolitana. Para casos de falta de ar, ou para aquelas pessoas pertencentes aos grupos de risco, que são os idosos a partir de 60 anos e os portadores de doenças crônicas graves e imunodeprimidos, como pacientes que passam por quimioterapia, hipertensos e outras doenças do coração e diabéticos, o indicado é ir aos hospitais, pronto-socorros ou unidades de pronto atendimento (UPAs). Para mais informações, clique <a href="https://agenciapara.com.br/noticia/18450/">aqui</a>. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header p-0">
+                     <button class="btn btn-link" data-target="#collapse3" data-toggle="collapse" style="text-decoration: none;"><i class="fas fa-plus" style="margin-right: 4px ;"></i>Sobre os dados</button>
+                    </div>
+                    <div class="collapse" id="collapse3" data-parent="#accordion">
+                        <div class="card-body">
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. </p>
+                        </div>
+                    </div>
+                </div>
+
+
+               </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+
 </body>
 </html>
