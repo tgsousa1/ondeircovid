@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
+
+body{
+    background-color: #659dbd;
+    font-family: 'Jost', sans-serif;
+    color: white;
+    font-size: 42px;
+    font-weight: normal;
+}
+
+h2{
+    font-weight: bold;
+}
+
+.card-body {
+    font-size: 15px;
+}
+
+#accordion {
+    -webkit-box-shadow: 4px 3px 13px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 3px 13px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 3px 13px 0px rgba(129, 126, 126, 0.75);
+}
